@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+
+<beans xmlns="http://www.springframework.org/schema/beans" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" default-destroy-method="destroy" default-init-method="afterPropertiesSet" xsi:schemaLocation=" http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+	<bean class="im.ligas.sb.first.service.impl.FirstLocalServiceImpl" id="im.ligas.sb.first.service.FirstLocalService" />
+	<bean class="im.ligas.sb.first.service.impl.FirstServiceImpl" id="im.ligas.sb.first.service.FirstService" />
+	<bean class="im.ligas.sb.first.service.persistence.impl.FirstPersistenceImpl" id="im.ligas.sb.first.service.persistence.FirstPersistence" parent="basePersistence" />
+</beans>

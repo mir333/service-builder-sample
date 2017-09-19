@@ -1,0 +1,7 @@
+Bundle-SymbolicName: first.sb.service-api
+Bundle-Version: 1.0.0
+Export-Package:\
+	im.ligas.sb.first.exception,\
+	im.ligas.sb.first.model,\
+	im.ligas.sb.first.service,\
+	im.ligas.sb.first.service.persistence

@@ -1,0 +1,7 @@
+Bundle-SymbolicName: second.sb.service-api
+Bundle-Version: 1.0.0
+Export-Package:\
+	im.ligas.sb.second.exception,\
+	im.ligas.sb.second.model,\
+	im.ligas.sb.second.service,\
+	im.ligas.sb.second.service.persistence
